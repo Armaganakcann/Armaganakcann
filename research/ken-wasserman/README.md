@@ -16,6 +16,7 @@
 | [`05-asama5-arastirma-deseni.md`](05-asama5-arastirma-deseni.md) | Araştırma deseni, yöntem repertuvarı, epistemik duruş, kanıt yetersizliği beyanları, harita |
 | [`06-damar-B-hastalik-trajektorisi.md`](06-damar-B-hastalik-trajektorisi.md) | **Damar B derin inceleme:** hastalık trajektorisi ve semptom öncesi tahmin — mevcut durum, dünyadaki çalışmalar, veri erişilebilirliği, açık problemler, gerçek research gap'ler |
 | [`07-damar-A-guvenilir-denetlenebilir-ai.md`](07-damar-A-guvenilir-denetlenebilir-ai.md) | **Damar A derin inceleme:** trustworthy/auditable AI — kalibrasyon, PPV/taban oranı, belirsizlik ve çekimserlik, doğrulama, denetlenebilirlik; ve **A↔B hipotezinin testi** |
+| [`08-G2-G7-falsifikasyon.md`](08-G2-G7-falsifikasyon.md) | **G2/G7'yi öldürme denemesi:** dört iddia düşman gözüyle test edildi — ikisi öldü, biri büyük ölçüde öldü, biri daraltılmış hâlde ayakta |
 | [`veri/videolar.tsv`](veri/videolar.tsv) | PDF'ten ayrıştırılmış 338 video (başlık, izlenme, göreli tarih) |
 
 ## En kritik 5 bulgu
@@ -48,7 +49,8 @@ Araştırma haritası çıkarıldıktan sonra, haritadaki güçlü damarlar tek 
 |---|---|---|
 | **B — Hastalık trajektorisi / semptom öncesi tahmin** | ✅ Tamamlandı | `06-damar-B-hastalik-trajektorisi.md` |
 | **A — Trustworthy / Auditable AI** (B ile kesişimde) | ✅ Tamamlandı | `07-damar-A-guvenilir-denetlenebilir-ai.md` |
-| **A + B kesişim tartışması** | ⏸️ **Şu an buradayız** | — |
+| **G2/G7 falsifikasyon turu** | ✅ Tamamlandı | `08-G2-G7-falsifikasyon.md` |
+| **Veri gerçekliği haritası** | ⏸️ **Şu an buradayız** | — |
 | **C — Autonomous AI / Agents for Science** | ⏳ Sonra | — |
 
 ### Damar B'nin tek cümlelik sonucu
@@ -59,7 +61,15 @@ Araştırma haritası çıkarıldıktan sonra, haritadaki güçlü damarlar tek 
 
 > **Sonuç 2 — kısmen birleşiyor.** A'nın yöntemleri B'nin problemini çözmek için var ve teorik olarak uygun (conformalized survival analysis bunun literal kanıtı), **ama yanlış ufukta test edilmişler**: sepsis saatleri, triyaj günleri, 30 günlük yeniden yatış. Çok-yıllık çok-hastalık modellerine hiç uygulanmamışlar. Ken de bu köprüyü kurmamış — güvenilirliği tıbbi AI'da, konformal belirsizliği ilaç tasarımında tutuyor.
 
+### Falsifikasyon turunun sonucu
+
+Boşluk hayatta — **ama %70 küçüldü.** Ölen kısım: "yeni kavram / yeni çerçeve" iddiası (ufka bağlı değerlendirme meteoroloji, ekoloji, salgın tahmini ve landmarking'de yerleşik; "forecast horizon limit" kavramının formal tanımı ekolojide zaten var). Yaşayan kısım:
+
+> Ufka bağlı değerlendirme yerleşik bir pratiktir, ancak uzun vadeli **bireysel** klinik risk tahminine **karar-ilgili güvenilirlik metrikleriyle birlikte** (kalibrasyon + kapsama + PPV + net fayda) taşınmamıştır — ve taşındığında ne olacağına dair mevcut iki ampirik ipucu birbiriyle çelişmektedir.
+
 ## Sonraki adım
 
 Zincir:
-`İÇERİKLERİ TOPLA → KAYNAK MAKALELERİ DOĞRULA → MAKALELERİ ANALİZ ET → TEKRAR EDEN TEMALARI BUL → ARAŞTIRMA HARİTASINI ÇIKAR → DAMARLARI TEK TEK İNCELE (B ✅, A/C ⏳) → kesişim analizi → proje seçimi`
+`İÇERİKLERİ TOPLA ✅ → KAYNAK MAKALELERİ DOĞRULA ✅ → MAKALELERİ ANALİZ ET ✅ → TEKRAR EDEN TEMALARI BUL ✅ → ARAŞTIRMA HARİTASINI ÇIKAR ✅ → DAMAR B ✅ → DAMAR A ✅ → BOŞLUĞU ÖLDÜRMEYE ÇALIŞ ✅ → veri gerçekliği ⏸️ → C damarı ⏳ → proje seçimi ⏳`
+
+Hâlâ seçilmedi: hastalık ❌ · veri seti ❌ · model ❌ · mimari ❌
