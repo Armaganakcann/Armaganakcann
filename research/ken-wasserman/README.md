@@ -14,6 +14,7 @@
 | [`03-asama3-makale-analizleri.md`](03-asama3-makale-analizleri.md) | 8 makalenin 9 soruluk analizi; **bulgu / yazarın sınırlaması / benim çıkarımım** kesin ayrımıyla |
 | [`04-asama4-tekrar-eden-temalar.md`](04-asama4-tekrar-eden-temalar.md) | Nicel frekans analiziyle tekrar eden temalar tablosu + zamansal kayma |
 | [`05-asama5-arastirma-deseni.md`](05-asama5-arastirma-deseni.md) | Araştırma deseni, yöntem repertuvarı, epistemik duruş, kanıt yetersizliği beyanları, harita |
+| [`06-damar-B-hastalik-trajektorisi.md`](06-damar-B-hastalik-trajektorisi.md) | **Damar B derin inceleme:** hastalık trajektorisi ve semptom öncesi tahmin — mevcut durum, dünyadaki çalışmalar, veri erişilebilirliği, açık problemler, gerçek research gap'ler |
 | [`veri/videolar.tsv`](veri/videolar.tsv) | PDF'ten ayrıştırılmış 338 video (başlık, izlenme, göreli tarih) |
 
 ## En kritik 5 bulgu
@@ -22,7 +23,7 @@
 
 2. **Ken emekli bir immünolog.** Georgetown University School of Medicine'da 2012–2023 Assistant Professor. Kendi alanı immünoterapi/hücre adezyonu/anjiyogenez. Kanal, kendi araştırma üretimi değil, **emeklilik sonrası bilim küratörlüğü.**
 
-3. **Tıbbi görüntüleme/bilgisayarlı görü kanalın yalnızca %1'i (338'de 4 video).** Ken'in kullanıcıya retinal görüntüleme fikri vermesi, kendi gündeminin değil, muhtemelen kullanıcının beceri setinin yansıması. Onun kendi katkısı fikrin **etrafındaki** iki tema: adversarial doğrulama + düşük kaynaklı erişim.
+3. **Tıbbi görüntüleme/bilgisayarlı görü kanalın yalnızca %1'i (338'de 4 video).** Ken'in kullanıcıya retinal görüntüleme fikri vermesi, kendi gündeminin değil, muhtemelen kullanıcının beceri setinin yansıması. Onun kendi katkısı fikrin **etrafındaki** iki tema: adversarial doğrulama + düşük kaynaklı erişim. *(6. Aşama'da rafine edildi: Ken görüntülemeyle tanı görevi olarak değil, **risk/prognoz sensörü** olarak ilgileniyor — bkz. `06-…md` §6.0.)*
 
 4. **En istikrarlı tema "modele neden güvenelim?"** Sayıca %9 ama Ken'in kullanıcıya doğrudan gönderdiği iki akademik makalenin **ikisi de** bu temada. Bir konu değil, tüm konularına uyguladığı bir filtre.
 
@@ -38,7 +39,21 @@
 - *Towards conversational AI for disease management* (Google AMIE) — *Nature* 2026, DOI 10.1038/s41586-026-10764-5
 - Anant Madabhushi (Emory + Georgia Tech) — "AI and Healthcare" podcast bölümü *"What AI Can See in Medical Scans That Doctors Can't"*
 
+## Damar derinlemesine incelemeleri (6. Aşama)
+
+Araştırma haritası çıkarıldıktan sonra, haritadaki güçlü damarlar tek tek inceleniyor. **Hâlâ proje fikri üretilmiyor.**
+
+| Damar | Durum | Dosya |
+|---|---|---|
+| **B — Hastalık trajektorisi / semptom öncesi tahmin** | ✅ Tamamlandı | `06-damar-B-hastalik-trajektorisi.md` |
+| **A — Trustworthy / Auditable AI** | ⏳ Sırada | — |
+| **C — Autonomous AI / Agents for Science** | ⏳ Sırada | — |
+
+### Damar B'nin tek cümlelik sonucu
+
+> "Ne kadar erken tahmin edebiliriz?" sorusu büyük ölçüde çözüldü. **"Ne kadar erken GÜVENİLİR tahmin edebiliriz?"** sorusu hiç sorulmadı — ve Ken'in güvenilirlik takıntısı tam olarak bu boşluğa denk düşüyor.
+
 ## Sonraki adım
 
-Bu analiz **proje fikri üretmiyor.** Talep edilen zincir tamamlandı:
-`İÇERİKLERİ TOPLA → KAYNAK MAKALELERİ DOĞRULA → MAKALELERİ ANALİZ ET → TEKRAR EDEN TEMALARI BUL → ARAŞTIRMA HARİTASINI ÇIKAR`
+Zincir:
+`İÇERİKLERİ TOPLA → KAYNAK MAKALELERİ DOĞRULA → MAKALELERİ ANALİZ ET → TEKRAR EDEN TEMALARI BUL → ARAŞTIRMA HARİTASINI ÇIKAR → DAMARLARI TEK TEK İNCELE (B ✅, A/C ⏳) → kesişim analizi → proje seçimi`
